@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title>ACME</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script type="text/javascript" async="async" src="../js/bootstrap.js"></script>
+    <script type="text/javascript" async="async" src="../js/productos.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="row d-flex justify-content-center">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="panel_administrador.html">inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" id="mostrar_usuarioInfo">usuario registrado</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="row d-flex justify-content-center">
+        
+        <div class="col-md-6">
+  
+            <div class="panel panel-warning">
+                <h1> INGRESAR DATOS DEL NUEVO PRODUCTO</h1>
+                <div class="panel-heading">
+                </div>
+                <div class="panel-body">
+                    <div class="container d-flex justify-content-center">
+                        <div class="row  ">
+                            <div class="col-md-6">
+                                <p>NOMBRE DE PRODUCTO</p> <input id="nombre_producto" type="text">
+                                <p>IMAGEN REFERENCIA</p> <input id="img_producto" type="text">
+                                <p>TALLA</p> <input id="talla_producto" type="text">
+                                <p>CANTIDAD DISPONIBLE</p> <input id="cantidad" type="number">
+                            </div>
+                            <div class="col-md-6">
+                                <p>PRECIO VENTA</p> <input id="precio_venta" type="number">
+                                <p>precio compra</p> <input id="precio_compra" type="number"><br><br>
+                                <p>ID CATEGORIA</p> <input id="id_categoria" type="number">
+                            </div>
+                            <button id="registrar_producto" type="button" class="btn btn-warning d-flex justify-content-center my-5 ">registrar<i class='bx bx-plus'></i></button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+</body>
+
+</html>

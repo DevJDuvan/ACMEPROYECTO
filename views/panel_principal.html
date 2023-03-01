@@ -1,0 +1,98 @@
+<!--INTEGRANTES:
+* -->
+
+<!DOCTYPE html>
+<html>
+    <head>     
+        <title>parcial</title>   
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+		<script type="text/javascript" async="async" src="js/bootstrap.js"></script>                
+        <script type="text/javascript" async="async" src="../js/js.js"></script> 
+    </head>
+    <body>
+        <div id="panel" class="panel panel-default">
+            <div class="panel-body">ACME</div>
+        </div>
+            <div class="row">
+
+                <div class="alert alert-warning alert-dismissable">
+                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    <strong>¡Cuidado!</strong> Es muy importante que leas este mensaje de alerta.
+                  </div>
+                <div class="col-md-8">
+                    <div class="panel panel-warning">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Consumiendo API de  https://andresriascos.pw/api/v1/personas</h3>
+                        </div>
+                        <div class="panel-body">
+                           
+                            <button id="get_personas" type="button" class="btn btn-warning">Obtener todos las personas</button><br>
+                            <input id="entrada" type="text">
+                            <button id="get_municipios_item" type="button" class="btn btn-warning">Obtener persona por item</button>
+                            <table id="municipios" class="table table-striped">
+                                <thead>
+                                    <tr>
+                                      <th scope="col">id</th>
+                                      <th scope="col">nombre</th>
+                                      <th scope="col">numero de documento</th>
+                                      <th scope="col">correo</th>
+                                     
+                                    </tr>
+                                  </thead>
+                                  <tbody class="all">
+                                      
+                                  </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div id="panel" class="panel panel-default">
+                <div class="panel-body">agregar un nuevo empleado</div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+
+                    <div class="panel panel-warning">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">enviando datos a la API</h3>
+                        </div>
+                        <div class="panel-body">
+                           <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                         <p>id de empleado</p>   <input id="id_empleado" type="text">
+                         <p>nombre de empleado</p>   <input id="nombre_empleado" type="text">
+                         <p>numero de documento</p>   <input id="documento_empleado" type="text">
+                         <p>correo</p>   <input id="correo_empleado" type="text"><br><br>
+                         <button id="registrar_empleado" type="button" class="btn btn-warning ">registrar</button>
+                         <button id="actualizar_empleado" type="button" class="btn btn-warning">actualizar</button>
+                         </div> 
+                     </div>
+                           
+                        </div>
+                    </div>
+
+
+
+                </div>
+                </div>
+
+                <div id="panel" class="panel panel-default">
+                    <div class="panel-body">eliminando un empleado por id <br>
+                        <input id="id_empleado_eliminar" type="text">
+                        <button id="eliminar_empleado" type="button" class="btn btn-warning mt-4">eliminar</button>
+
+
+                    </div>
+                  
+                </div>
+        
+    </body>
+</html>
