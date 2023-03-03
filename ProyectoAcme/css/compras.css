@@ -1,0 +1,29 @@
+.agregar .boton_compras{background-color: aqua;}
+
+body {
+    background: #20262E;
+    padding: 20px;
+    font-family: Helvetica;
+    text-align: center;
+  }
+  
+  .obra-social {
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    transition: all 0.2s;
+    margin: 0 auto;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background: #0084ff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 14px;
+    font-size: 15px;
+    color: #fff;
+  }
