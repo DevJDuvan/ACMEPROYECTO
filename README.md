@@ -1,3 +1,2 @@
 # ACMEPROYECTO
-
-[![ACME.jpg](https://i.postimg.cc/xCS16pr2/ACME.jpg)](https://postimg.cc/QB0Dtbx4)
+[![ACME.jpg](https://i.postimg.cc/c4YZbMm1/ACME.jpg)](https://postimg.cc/CzFWZ8X9)
